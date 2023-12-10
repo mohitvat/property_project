@@ -1,0 +1,69 @@
+.about__wrapper {
+  /* background-image: url(https://c.animaapp.com/iUpDz7wD/img/rosewood-development-millwood-04-scaled-blue-g-1.png); */
+  background-image: url("/image/Project2/img (25).jpg");
+  background-size: cover;
+  background-position: bottom;
+  object-fit: cover;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-size: 3vmin;
+}
+.social__logos {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+.social__logo {
+  width: 10vmin;
+}
+
+.about__text{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.about__text p{
+  width: 60vw;
+  font-size: large;
+}
+
+.contact__btn{
+  font-family: "Playfair Display", Helvetica;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: .2rem 2rem;
+}
+
+.image__grid{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .image__grid {
+    flex-direction: column;
+  }
+}

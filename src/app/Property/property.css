@@ -1,0 +1,80 @@
+.property__wrapper {
+  background-image: url(https://c.animaapp.com/P5DKSjD1/img/mask-group.png);
+  object-fit: cover;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.property__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-size: 3vmin;
+}
+.social__logos {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+.social__logo {
+  width: 10vmin;
+}
+
+.property__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.image__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+}
+@media only screen and (max-width: 768px) {
+  .image__grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+h3 {
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 1rem;
+}
+.image__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.image__element img{
+  width: 40vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .image__element img {
+    width: 100%;
+  }
+}
+.learn__more__btn {
+  font-family: "Playfair Display", Helvetica;
+  font-style: italic;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+}

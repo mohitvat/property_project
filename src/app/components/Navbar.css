@@ -1,0 +1,31 @@
+.navbar__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.navbar__logo {
+  max-width: 40vw;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.navbar__buttons {
+  display: flex;
+  gap: 15px;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-family: "Playfair Display", Helvetica;
+}
+.nav__btn {
+  cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+.nav__btn:hover {
+  color: rgb(204, 204, 84);
+}
