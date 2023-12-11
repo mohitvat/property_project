@@ -11,10 +11,21 @@ const AboutUsPage = () => {
           <p>DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p>
         </div> */}
 
-        <div className="social__logos"><a href="https://www.instagram.com/gspropertiesdevelopments/?hl=en"><img className="social__logo" alt="Ig white" src="https://c.animaapp.com/q5aj6oWM/img/ig-white@2x.png"/></a><a href="https://www.tiktok.com/@gspropertiesdevelopments?_t=8i0xQIpJsjB&_r=1"><img className="social__logo" alt="Tiktokk white" src="/tiktok.png"/></a>
-         
-
-
+        <div className="social__logos">
+          <a href="https://www.instagram.com/gspropertiesdevelopments/?hl=en">
+            <img
+              className="social__logo"
+              alt="Ig white"
+              src="https://c.animaapp.com/q5aj6oWM/img/ig-white@2x.png"
+            />
+          </a>
+          <a href="https://www.tiktok.com/@gspropertiesdevelopments?_t=8i0xQIpJsjB&_r=1">
+            <img
+              className="social__logo"
+              alt="Tiktokk white"
+              src="/tiktok.png"
+            />
+          </a>
         </div>
       </div>
       <div className="about__text">
@@ -35,7 +46,7 @@ const AboutUsPage = () => {
             <span style={{ fontWeight: "bold" }}>Greyston</span> Bespoke
             undertakes bespoke private client projects, from drawing and
             planning stages, right the way through to choosing the brassware in
-            your bathroom. Rosewood Bespoke is our expert turn key service for
+            your bathroom. Greystone Bespoke is our expert turn key service for
             delivering you your dream home.
             <br />
             <br />

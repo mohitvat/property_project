@@ -10,10 +10,21 @@ const ContactUs = () => {
           <p>DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p>
         </div> */}
 
-        <div className="social__logos"><a href="https://www.instagram.com/gspropertiesdevelopments/?hl=en"><img className="social__logo" alt="Ig white" src="https://c.animaapp.com/q5aj6oWM/img/ig-white@2x.png"/></a><a href="https://www.tiktok.com/@gspropertiesdevelopments?_t=8i0xQIpJsjB&_r=1"><img className="social__logo" alt="Tiktokk white" src="/tiktok.png"/></a>
-         
-
-
+        <div className="social__logos">
+          <a href="https://www.instagram.com/gspropertiesdevelopments/?hl=en">
+            <img
+              className="social__logo"
+              alt="Ig white"
+              src="https://c.animaapp.com/q5aj6oWM/img/ig-white@2x.png"
+            />
+          </a>
+          <a href="https://www.tiktok.com/@gspropertiesdevelopments?_t=8i0xQIpJsjB&_r=1">
+            <img
+              className="social__logo"
+              alt="Tiktokk white"
+              src="/tiktok.png"
+            />
+          </a>
         </div>
       </div>
 
@@ -21,7 +32,7 @@ const ContactUs = () => {
         <div className="contact__message">
           <h4>
             Should you require further assistance or wish to enquire about any
-            future projects, please contact us via the details below.
+            future properties, please contact us via the details below.
           </h4>
           <br />
           <br />
@@ -33,7 +44,10 @@ const ContactUs = () => {
 
           <div>
             <h4>REGISTERED ADDRESS:</h4>
-            <h2>6884 BEVERBERG STREET, COPPERLEAF AND COUNTRY ESTATE, Johannesburg 522 PEACH TREE EXT 1</h2>
+            <h2>
+              6884 BEVERBERG STREET, COPPERLEAF AND COUNTRY ESTATE, Johannesburg
+              522 PEACH TREE EXT 1
+            </h2>
           </div>
         </div>
 
@@ -51,7 +65,7 @@ const ContactUs = () => {
           ></iframe>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

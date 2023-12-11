@@ -23,7 +23,7 @@ const HomePage = () => {
           alt="Rosewood building"
           src="https://c.animaapp.com/q5aj6oWM/img/rosewood-building-luxury-1.png"
         /> */}
-          <p>DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p>
+          {/* <p>DEVELOPMENTS | INTERIORS | BESPOKE PROJECTS</p> */}
         </div>
 
         <div className="social__logos">

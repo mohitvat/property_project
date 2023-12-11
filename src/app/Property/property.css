@@ -1,7 +1,12 @@
 .property__wrapper {
-  background-image: url(https://c.animaapp.com/P5DKSjD1/img/mask-group.png);
+  /* background-image: url(https://c.animaapp.com/P5DKSjD1/img/mask-group.png); */
+  background-image: url("/image/Project1/img (29).jpg");
   object-fit: cover;
-  height: 70vmin;
+  background-size: cover;
+  background-position: bottom;
+ 
+  height: 90vh;
+  
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;

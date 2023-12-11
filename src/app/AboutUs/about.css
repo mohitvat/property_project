@@ -1,10 +1,10 @@
 .about__wrapper {
   /* background-image: url(https://c.animaapp.com/iUpDz7wD/img/rosewood-development-millwood-04-scaled-blue-g-1.png); */
-  background-image: url("/image/Project2/img (25).jpg");
+  background-image: url("/image/Project1/img (5).jpg");
   background-size: cover;
   background-position: bottom;
-  object-fit: cover;
-  height: 70vmin;
+ 
+  height: 90vh;
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
