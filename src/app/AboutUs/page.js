@@ -94,11 +94,11 @@ const AboutUsPage = () => {
             <br />
           </p>
         </p>
-        <p>
+        {/* <p>
           <span style={{ fontWeight: "bold" }}>Greystone </span> Luxury
           Developments create the finest bespoke homes across Buckinghamshire
           and The Home Counties.
-        </p>
+        </p> */}
         <br />
         <br />
         <Link href="/ContactUs">

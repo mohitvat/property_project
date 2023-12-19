@@ -4,7 +4,8 @@
 }
 .homepage__wrapper {
   /* background-image: url(https://c.animaapp.com/q5aj6oWM/img/rosewood-development-millwood-04-scaled-blue-g-1.png); */
-  background-image: url("/home.jpg") ;
+  /* background-image: url("/home.jpg") ; */
+  background-image: url("/image/Project1/img (8).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

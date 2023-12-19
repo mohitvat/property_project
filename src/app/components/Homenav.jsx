@@ -12,7 +12,7 @@ const Navbar2 = () => {
           <div className="nav__btn">Contact Us</div>
         </Link>
         <Link href="/Property">
-          <div className="nav__btn">Property</div>
+          <div className="nav__btn">Properties</div>
         </Link>
       </div>
     </div>
