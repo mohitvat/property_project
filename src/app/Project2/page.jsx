@@ -37,7 +37,7 @@ Smoking inside the apartment is prohibited. Should you want to smoke, you can us
             <br />
             <p className="project-details__address">
               <span className="project-details__label">Address:</span><br />
-              Harare, Harare Province, Zimbabwe <br /><br />
+              Tatenda Place, Harare Province, Zimbabwe<br /><br />
               {/* <span className="project-details__label">Type:</span><br /> Residential
               building <br /><br />
               <span className="project-details__label">

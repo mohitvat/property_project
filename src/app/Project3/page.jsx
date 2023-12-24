@@ -34,7 +34,7 @@ const ProjectPage = () => {
             <br />
             <p className="project-details__address">
               <span className="project-details__label">Address:</span>
-              <br /> Harare, Harare Province, Zimbabwe<br />
+              <br /> St Kitts, Harare Province, Zimbabwee<br />
               {/* <br />
               <span className="project-details__label">Type:</span>
               <br /> Residential building <br />

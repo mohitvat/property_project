@@ -34,7 +34,7 @@ const ProjectPage = () => {
             </p>
             <br />
             <p className="project-details__address">
-              <span className="project-details__label">Address:</span><br /> Harare, Harare Province, Zimbabwe<br /><br />
+              <span className="project-details__label">Address:</span><br /> Oxford Road, Harare Province, Zimbabwe<br /><br />
               {/* <span className="project-details__label">Type:</span><br /> Residential
               building <br /><br />
               <span className="project-details__label">
@@ -50,7 +50,7 @@ const ProjectPage = () => {
             alt="Rectangle"
           />
         </div>
-        <CarouselSlider projectFolder="Project4" length={40} />
+        <CarouselSlider projectFolder="Project4" length={33} />
 
         <div className="project-details__section">
           <img
