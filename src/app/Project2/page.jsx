@@ -53,7 +53,7 @@ Smoking inside the apartment is prohibited. Should you want to smoke, you can us
             alt="Rectangle"
           />
         </div>
-        <CarouselSlider projectFolder="Project2" length={30} />
+        <CarouselSlider projectFolder="Project2" length={24} />
 
         <div className="project-details__section">
           <img

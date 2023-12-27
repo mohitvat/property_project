@@ -60,7 +60,7 @@ University of Pretoria is 17 km from the villa, while Union Buildings is 19 km a
           />
         </div>
 
-        <CarouselSlider projectFolder="Project1" length={30} />
+        <CarouselSlider projectFolder="Project1" length={27} />
 
         <div className="project-details__section">
           <img

@@ -50,7 +50,7 @@ const ProjectPage = () => {
             alt="Rectangle"
           />
         </div>
-        <CarouselSlider projectFolder="Project4" length={33} />
+        <CarouselSlider projectFolder="Project4" length={29} />
 
         <div className="project-details__section">
           <img
