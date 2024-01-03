@@ -38,7 +38,7 @@ const ContactUs = () => {
           <br />
           <div>
             <h4>Email:</h4>
-            <h4>enquiries@greystone.com</h4>
+            <h4>enquiries@greystoneproperties.co</h4>
           </div>
           <br />
 

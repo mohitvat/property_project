@@ -56,6 +56,8 @@ const AboutUsPage = () => {
             quintessentially British experience.
             <br />
             <br />
+            <img className="w-2/3 mx-auto" alt="Ig white" src="/room1.jpg" />
+            <br />
             <span style={{ fontWeight: "bold" }}>Accommodation Excellence</span>
             <br />
             At Greystone, we redefine the art of hospitality. Our portfolio
@@ -66,6 +68,8 @@ const AboutUsPage = () => {
             memorable experience.
             <br />
             <br />
+            <img className="w-2/3 mx-auto" alt="Ig white" src="/room3.jpg" />
+            <br />
             <span style={{ fontWeight: "bold" }}>Construction Expertise</span>
             <br />
             Greystone Properties & Developments isn't just about accommodation;
@@ -75,6 +79,8 @@ const AboutUsPage = () => {
             completion, our team is dedicated to delivering outstanding
             craftsmanship and transforming spaces into timeless works of art.
             <br />
+            <br />
+            <img className="w-2/3 mx-auto" alt="Ig white" src="/room2.jpg" />
             <br />
             <span style={{ fontWeight: "bold" }}>Our Vision</span>
             <br />
