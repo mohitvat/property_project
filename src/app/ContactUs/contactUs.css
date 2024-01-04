@@ -1,0 +1,182 @@
+.contact__wrapper {
+  /* background-image: url(https://c.animaapp.com/P5DKSjD1/img/mask-group.png); */
+  background-image: url("/contact.jpg");
+  background-size: cover;
+  background-position:  center  ;
+  /* object-fit: cover; */
+  height: 80vmin;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__form{
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.5rem;
+}
+
+.input__fields{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:5px;
+}
+
+.input__fields label{
+  margin-left: 5px;
+  font-size: large;
+  color:rgb(99, 99, 99);
+}
+
+.input__fields .error, .input__fields .success{
+  text-align: center;
+  margin: 1rem;
+  font-weight: 500;
+  font-size: large;
+}
+.input__fields input,textarea{
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px 15px;
+  background-color: whitesmoke;
+}
+.contact__details{
+  flex: 1;
+  width: 100%;
+  padding: 1rem;
+}
+.contact__details form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap:1rem;
+}
+.submit__btn{
+  border: none;
+  width: 100%;
+  padding: 10px 15px;
+  background: green;
+  color:white;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit__btn:hover{
+  background: rgb(1, 102, 1);
+}
+.contact__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-size: 3vmin;
+}
+.social__logos {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+.social__logo {
+  width: 10vmin;
+}
+
+.contact__text {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.contact__text p {
+  width: 60vw;
+  font-size: large;
+}
+
+.contact__btn {
+  font-family: "Playfair Display", Helvetica;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 0.2rem 2rem;
+}
+
+.image__grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .contact__form{
+    flex-direction: column;
+  }
+  .image__grid {
+    flex-direction: column;
+  }
+}
+
+.terms__text {
+  text-align: center;
+  color: black;
+}
+
+.map {
+  flex:1;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.maps {
+  padding: 2rem;
+  width: 100%;
+  /* max-width: 80vw; */
+}
+
+@media only screen and (max-width: 768px) {
+  .maps {
+    max-width: 100%;
+    max-height: 50vh;
+  }
+}
+.contact__text {
+  font-family: "Montserrat Subrayada", Helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact__message {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,98 @@
+.project__wrapper {
+  background-image: url(https://imgur.com/74PNFaz.png);
+  object-fit: cover;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  font-size: 3vmin;
+}
+.social__logos {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+.social__logo {
+  width: 10vmin;
+}
+
+.project-details__section{
+  display: flex;
+  margin-bottom: 10vh;
+  font-size: x-large;
+  
+}
+.project-details{
+  display: flex;
+  flex-direction: column;
+  padding: 8vmin;
+}
+
+
+.project-details__title{
+  font-size: xx-large;
+  font-weight: bold;
+}
+.project-details__description{
+  font-size: x-large;
+}
+.project-details__address,.project-details__common-areas,.project-details__staircase{
+  font-size: x-large;
+  font-family: "Playfair Display", Helvetica;
+}
+.project-details__label{
+  font-size: x-large;
+  font-weight: bold;
+}
+.project-details__text{
+  margin: 2rem;
+}
+
+.project-details__link{
+  border: 2px solid black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* width: 10vmin; */
+  max-width: 120px;
+  text-align: center;
+}
+
+.project-details__logo{
+  width: 8vmin;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.project-details__cover__img{
+ margin-bottom: 4rem;
+ max-height: 60vh;
+ object-fit: cover;
+}
+
+.project-details__img1{
+  max-width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-details__section {
+    flex-direction: column;
+  }
+  .project-details__img1{
+    max-width: 100%;
+  }
+}
